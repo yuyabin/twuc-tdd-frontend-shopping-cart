@@ -1,15 +1,13 @@
 import React from 'react';
 import './index.css';
 
+const shoppingCart = () => {
+  return (
+    <div className="wrapper">
+      <div className="title">Shopping Cart</div>
+    </div>
+  );
+};
 
-class ShoppingCart extends React.Component {
-  render() {
-    return (
-      <div  className="wrapper">
-        <div className="title">Shopping Cart</div>
-      </div>
-    );
-  }
-}
 
-export default ShoppingCart;
+export default shoppingCart;

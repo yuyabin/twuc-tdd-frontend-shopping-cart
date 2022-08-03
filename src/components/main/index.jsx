@@ -1,15 +1,12 @@
 import React from 'react';
 import './index.css';
 
-class Main extends React.Component {
+const main = (props) => {
+  return (
+    <main className="main">
+      {props.children}
+    </main>
+  );
+};
 
-  render() {
-    return (
-      <main className="main">
-        {this.props.children}
-      </main>
-    );
-  }
-}
-
-export default Main;
+export default main;

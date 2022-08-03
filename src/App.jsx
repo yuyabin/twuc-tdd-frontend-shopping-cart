@@ -5,18 +5,16 @@ import Footer from './components/footer';
 import Main from './components/main';
 import ShoppingCart from './pages/shoppingCart';
 
-class App extends React.Component {
-  render() {
-    return (
-      <>
-        <Header />
-        <Main>
-          <ShoppingCart />
-        </Main>
-        <Footer />
-      </>
-    );
-  }
-}
+const app = () => {
+  return (
+    <>
+      <Header />
+      <Main>
+        <ShoppingCart />
+      </Main>
+      <Footer />
+    </>
+  );
+};
 
-export default App;
+export default app;
