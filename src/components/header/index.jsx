@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 
-const header = () => {
+const Header = () => {
   return (
     <header>
       <h1 className="header">Thoughtworks Mall</h1>
@@ -9,4 +9,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;

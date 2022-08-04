@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 
-const footer = () => {
+const Footer = () => {
   return (
     <footer className="footer">
       <a className="link" href="/contact">Contact Us</a>
@@ -10,4 +10,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;

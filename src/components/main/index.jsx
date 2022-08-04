@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 
-const main = (props) => {
+const Main = (props) => {
   return (
     <main className="main">
       {props.children}
@@ -9,4 +9,4 @@ const main = (props) => {
   );
 };
 
-export default main;
+export default Main;

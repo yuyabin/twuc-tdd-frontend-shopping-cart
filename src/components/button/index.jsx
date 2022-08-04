@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 
 
-const button = (props) => {
+const Button = (props) => {
   return (
     <button
       className={`button ${props.disabled ? 'disabled' : ''}`}
@@ -14,4 +14,4 @@ const button = (props) => {
   );
 };
 
-export default button;
+export default Button;

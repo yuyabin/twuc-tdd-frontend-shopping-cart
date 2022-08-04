@@ -5,7 +5,7 @@ import Footer from './components/footer';
 import Main from './components/main';
 import ShoppingCart from './pages/shoppingCart';
 
-const app = () => {
+const App = () => {
   return (
     <>
       <Header />
@@ -17,4 +17,4 @@ const app = () => {
   );
 };
 
-export default app;
+export default App;
