@@ -9,4 +9,15 @@ describe('Shopping Cart', () => {
 
     expect(getByText('Shopping Cart')).toBeInTheDocument();
   });
+
+  test('should render shopping car title', () => {
+    const { container } = render(<ShoppingCart/>);
+    const thElements = container.getElementsByTagName('th');
+
+    // then
+    expect(thElements.length).toBe(3);
+    ['商品名称', '单 价', '数 量'].forEach((text, index) => {
+      expect(thElements.item(index)).toHaveTextContent(text);
+    });
+  });
 });
